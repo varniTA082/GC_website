@@ -91,8 +91,8 @@ body {
  * ------------------------------------------------------------------- */
 a {
   color: #793ea5;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 a:hover,
@@ -743,8 +743,8 @@ select {
   line-height: 3rem;
   max-width: 100%;
   background: rgba(255, 255, 255, 0.05);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .ss-custom-select {
@@ -794,8 +794,8 @@ select {
   -webkit-transform: rotate(45deg);
   -ms-transform: rotate(45deg);
   transform: rotate(45deg);
-  -webkit-transition: all 0.15s ease-in-out;
-  transition: all 0.15s ease-in-out;
+  -webkit-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 /* IE9 and below */
@@ -909,7 +909,7 @@ select:-webkit-autofill,
 select:-webkit-autofill:hover,
 select:-webkit-autofill:focus {
   -webkit-text-fill-color: #793ea5;
-  transition: background-color 5000s ease-in-out 0s;
+  transition: background-color 500s ease-out 0s;
 }
 
 
@@ -937,10 +937,10 @@ input[type="button"] {
   text-align: center;
   white-space: nowrap;
   cursor: pointer;
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
   background-color: #c5c5c5;
-  border: .2rem solid #c5c5c5;
+  /* border: .2rem solid #c5c5c5; */
 }
 
 .btn:hover,
@@ -961,7 +961,7 @@ input[type="button"]:focus {
 
 /* button primary
  * ------------------------------------------------- */
-.btn.btn--primary,
+/* .btn.btn--primary,
 button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
@@ -969,9 +969,9 @@ input[type="button"].btn--primary {
   background: #793ea5;
   border-color: #793ea5;
   color: #FFFFFF;
-}
+} */
 
-.btn.btn--primary:hover,
+/* .btn.btn--primary:hover,
 button.btn--primary:hover,
 input[type="submit"].btn--primary:hover,
 input[type="reset"].btn--primary:hover,
@@ -983,7 +983,7 @@ input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
   background: #6b3792;
   border-color: #6b3792;
-}
+} */
 
 /* button modifiers
  * ------------------------------------------------- */
@@ -1658,8 +1658,8 @@ body.menu-is-open {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.1s ease-out;
+  transition: all 0.1s ease-out;
 }
 
 .header-logo a {
@@ -1670,8 +1670,8 @@ body.menu-is-open {
 }
 
 .header-logo img {
-  width: 155px;
-  height: 36px;
+  width: 60px;
+  height: 60px;
 }
 
 /* ------------------------------------------------------------------- 
@@ -1784,8 +1784,8 @@ body.menu-is-open {
   font-family: "Montserrat", sans-serif;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.25);
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   position: relative;
 }
 
@@ -1879,8 +1879,8 @@ body.menu-is-open {
   transition-property: all;
   -webkit-transition-duration: 1s;
   transition-duration: 1s;
-  -webkit-transition-timing-function: ease-in-out;
-  transition-timing-function: ease-in-out;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
   -webkit-transition-delay: 0.5s;
   transition-delay: 0.5s;
   left: 0;
@@ -1899,8 +1899,8 @@ body.menu-is-open {
   text-transform: uppercase;
   letter-spacing: .5rem;
   color: #FFFFFF;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   position: fixed;
   right: 8rem;
   top: 30px;
@@ -2164,8 +2164,8 @@ body.menu-is-open {
   background-repeat: no-repeat;
   background-position: 55% center;
   background-size: 24px 27px;
-  -webkit-transition: background-color 0.3s ease-in-out;
-  transition: background-color 0.3s ease-in-out;
+  -webkit-transition: background-color 0.3s ease-out;
+  transition: background-color 0.3s ease-out;
 }
 
 .home-content__video .video-text {
@@ -2178,8 +2178,8 @@ body.menu-is-open {
   color: #9c9c9c;
   text-transform: uppercase;
   letter-spacing: .5rem;
-  -webkit-transition: color 0.3s ease-in-out;
-  transition: color 0.3s ease-in-out;
+  -webkit-transition: color 0.3s ease-out;
+  transition: color 0.3s ease-out;
   position: relative;
 }
 
@@ -2287,8 +2287,8 @@ body.menu-is-open {
 
 .home-social a {
   color: white;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .home-social li {
@@ -2306,8 +2306,8 @@ body.menu-is-open {
 .home-social i,
 .home-social span {
   position: absolute;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .home-social i {
@@ -3050,8 +3050,8 @@ html.no-csstransitions .home-content__main {
 
 .item-folio__thumb img {
   vertical-align: bottom;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
 }
 
 .item-folio__thumb a {
@@ -3069,8 +3069,8 @@ html.no-csstransitions .home-content__main {
   left: 0;
   width: 100%;
   height: 100%;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   z-index: 1;
 }
 
@@ -3091,8 +3091,8 @@ html.no-csstransitions .home-content__main {
   color: rgba(255, 255, 255, 0.8);
   opacity: 0;
   visibility: hidden;
-  -webkit-transition: all 0.5s ease-in-out;
-  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
   -webkit-transform: scale(0.5);
   -ms-transform: scale(0.5);
   transform: scale(0.5);
@@ -3110,8 +3110,8 @@ html.no-csstransitions .home-content__main {
   -webkit-transform: translate3d(0, 100%, 0);
   -ms-transform: translate3d(0, 100%, 0);
   transform: translate3d(0, 100%, 0);
-  -webkit-transition: all 0.3s ease-in-out;
-  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 
 .item-folio__title {
