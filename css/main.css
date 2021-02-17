@@ -1878,7 +1878,7 @@ body.menu-is-open {
   -webkit-transition-property: all;
   transition-property: all;
   -webkit-transition-duration: 1s;
-  transition-duration: 1s;
+  transition-duration: 0.6s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
   -webkit-transition-delay: 0.5s;
@@ -2759,7 +2759,6 @@ html.no-csstransitions .home-content__main {
   text-align: center;
   color: #FFFFFF;
   background-color: #1CB5E0;
- 
   height: 48px;
   width: 48px;
   line-height: 48px;
